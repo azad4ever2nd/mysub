@@ -393,7 +393,7 @@ export default defineGkdApp({
       rules: [
         {
           matches: [
-            '@*[clickable=true] [text*="朴朴"] +n * [text="0."] + [text="01"] + * > [text="立即抢购"]',
+            '@*[clickable=true] [text*="朴朴"] +n * [text="0."] + [text="01"] + *  [text="立即抢购"]',
           ],
           actionCd: 0,
           actionMaximum: 1,
